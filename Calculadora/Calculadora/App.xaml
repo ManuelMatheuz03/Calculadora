@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="White"></Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="HeightRequest" Value="100"></Setter>
+                <Setter Property="BackgroundColor" Value="White"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="60"></Setter>
+                <Setter Property="HorizontalTextAlignment" Value="End"></Setter>
+                <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="FontSize" Value="40"></Setter>
+                <Setter Property="HeightRequest" Value="110"></Setter>
+            </Style>
+            <Color x:Key="ColorOrange">Orange</Color>
+            <Color x:Key="ColorGray">#BDC3C7</Color>
+            <Color x:Key="ColorGris">#E5E7E9</Color>
+            
+            <Color x:Key="ColorWhite">White</Color>
+            <Color x:Key="ColorBlack">Black</Color>
+        </ResourceDictionary>
+		<!-- Application resource dictionary -->
+
+	</Application.Resources>
+</Application>
